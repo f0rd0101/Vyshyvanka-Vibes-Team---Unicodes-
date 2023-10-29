@@ -1,0 +1,81 @@
+.your-order {
+    padding-top: 80px;
+    border: 1px solid red;
+}
+.your-order-cont {
+    width: 100%; 
+    max-width: 375px; 
+    padding-right: 20px; 
+    padding-left: 20px;
+    background-image: url(../img/second_girl_mob_1x-min.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% contain;
+    background-position: center top;
+    border: 1px solid green;
+}
+.your-order-slogan {
+    padding-top: 630px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: -0.96px;
+    color: #FCF9F9;
+}
+.yellow-slogan {
+    color: #ECD979;
+}
+.form {
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    align-self: stretch;
+}
+.input {
+    width: 335px;
+    padding: 14px 16px;
+    align-items: flex-start;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background-color: transparent;
+    color: #FCF9F9;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
+.input:active, .input:focus {
+    border: 1px solid rgba(252, 249, 249, 0.60);
+}
+.comments {
+    height: 196px;
+}
+.button {
+    display: flex;
+    height: 49px;
+    padding: 14px 36px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background-color: transparent;
+    color: #FCF9F9;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.56px;
+    text-transform: uppercase;
+    margin: 20px auto;
+}
+.button-icon{
+    width: 26px;
+    height: 10px;
+}
+.choice-pict {
+    display: none;
+}
