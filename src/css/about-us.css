@@ -1,0 +1,123 @@
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #1c2225;
+  color: #fcf9f9;
+}
+
+.container {
+  width: 100%;
+  max-width: 375px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/* ----------------------------------------------- */
+
+.about-container {
+  background-image: url(../images/background-about.png);
+  fill: #fcf9f91a;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding-bottom: 62px;
+}
+
+.about-title {
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.38;
+  letter-spacing: -0.03em;
+}
+
+.about-text {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.04em;
+}
+
+.about-text:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.about-img {
+  margin-top: 50px;
+  width: 100%;
+}
+
+@media screen and (min-width: 320px) {
+  .container {
+    max-width: 375px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+
+  .about-container {
+    background-image: url(../images/background-about-tablet.png);
+    fill: #fcf9f91a;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-bottom: 50px;
+  }
+
+  .about-title {
+    font-size: 44px;
+    line-height: 1.45;
+  }
+
+  .about-text {
+    font-size: 16px;
+    letter-spacing: -0.04em;
+  }
+
+  .about-img {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+
+  .about-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    background-image: url(../images/background-about-desktop.png);
+    fill: #fcf9f91a;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-bottom: 50px;
+  }
+
+  .about-text-wrap {
+    max-width: 436px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+
+  .about-container {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    background-image: url(../images/background-about-desktop-1440.png);
+    fill: #fcf9f91a;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-bottom: 80px;
+  }
+}
