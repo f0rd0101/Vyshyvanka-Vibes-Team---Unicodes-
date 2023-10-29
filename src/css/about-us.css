@@ -1,9 +1,3 @@
-body {
-  font-family: 'Manrope', sans-serif;
-  background-color: #1c2225;
-  color: #fcf9f9;
-}
-
 .container {
   width: 100%;
   max-width: 375px;
@@ -14,7 +8,7 @@ body {
 /* ----------------------------------------------- */
 
 .about-container {
-  background-image: url(../images/background-about.png);
+  background-image: url(../img/ornament_about_us_mob-min.png);
   fill: #fcf9f91a;
   background-repeat: no-repeat;
   background-position: right bottom;
@@ -60,7 +54,7 @@ body {
   }
 
   .about-container {
-    background-image: url(../images/background-about-tablet.png);
+    background-image: url(../img/ornament_about_us_tab-min.png);
     fill: #fcf9f91a;
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -93,7 +87,7 @@ body {
     display: flex;
     gap: 50px;
     align-items: center;
-    background-image: url(../images/background-about-desktop.png);
+    background-image: url(../img/ornament_about_us_deck-min.png);
     fill: #fcf9f91a;
     background-repeat: no-repeat;
     background-position: right bottom;
@@ -105,7 +99,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
   }
@@ -120,4 +114,4 @@ body {
     background-position: right bottom;
     padding-bottom: 80px;
   }
-}
+} */
