@@ -2,6 +2,8 @@ body {
   font-family: Manrope;
   margin: 0;
   padding: 0;
+  background-color: #1c2225;
+  color: #fcf9f9;
 }
 .container {
   width: 375px;
