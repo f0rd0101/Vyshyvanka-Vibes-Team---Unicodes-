@@ -7,9 +7,17 @@
 .header-nav {
   display: flex;
   align-items: center;
+}
+.nav-one {
+  display: none;
+}
+.header-container {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 87px;
 }
-
 .svg-icon {
   width: 44px;
   height: 39px;
@@ -19,7 +27,7 @@
 }
 .ul-nav {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 12px;
 }
 .header-social-svg {
@@ -36,61 +44,14 @@
 .header-social-svg:hover {
   border: 1px solid var(--yellow, #ecd979);
 }
-.navigation-toogle {
-  appearance: none;
-}
-.navigation-btn {
-  position: fixed;
-  right: -8px;
-  top: 13px;
-  display: flex;
-  align-items: center;
-  width: 44px;
-  height: 30px;
-  background-color: #1c2225;
-  cursor: pointer;
-  z-index: 30;
-}
-.navigation-icon {
-  position: relative;
-  transition: all 400ms ease-in-out;
-}
-.navigation-icon,
-.navigation-icon::after,
-.navigation-icon::before {
-  width: 20px;
-  height: 2px;
-  background-color: #ecd979;
-}
-.navigation-icon::before,
-.navigation-icon::after {
-  content: '';
-  position: absolute;
-  right: 0;
-}
-.navigation-icon::after {
-  top: -7px;
-  width: 30px;
-  transition: all 200ms ease-in-out;
-}
-.navigation-icon::before {
-  top: 7px;
-  width: 30px;
-  transition: all 200ms ease-in-out;
-}
 
-.navigation-toogle:checked + .navigation-btn .navigation-icon {
+.menu-icon {
+  width: 36px;
+  height: 24px;
+}
+.button-menu {
   background-color: transparent;
-  transition: all 100ms ease-in-out;
-}
-
-.navigation-toogle:checked + .navigation-btn .navigation-icon::before {
-  top: 0;
-  transform: rotate(-135deg);
-}
-.navigation-toogle:checked + .navigation-btn .navigation-icon::after {
-  top: 0;
-  transform: rotate(135deg);
+  border: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -99,11 +60,34 @@
     margin: 0 auto;
     padding: 0 32px;
   }
-  .header {
-    width: 768px;
-  }
 
-  .header-nav {
+  .header-container {
     gap: 440px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+  }
+  .header-nav {
+    gap: 60px;
+  }
+  .header-container {
+    gap: 129px;
+  }
+  .nav-one {
+    display: flex;
+  }
+  .navigation-one {
+    display: flex;
+    gap: 25px;
+  }
+  .li-nav-one {
+    color: #fcf9f9;
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28em;
+    text-transform: uppercase;
   }
 }
