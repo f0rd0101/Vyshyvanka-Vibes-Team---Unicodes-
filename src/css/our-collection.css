@@ -134,7 +134,7 @@
     }
 }
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
     .container {
       max-width: 1440px;
     }
@@ -159,4 +159,4 @@
         background-repeat: no-repeat; 
         background-position: 0% 40%; 
     }
-}
+} */
