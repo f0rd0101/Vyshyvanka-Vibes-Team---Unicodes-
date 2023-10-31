@@ -1,6 +1,5 @@
 .your-order {
     padding-top: 80px;
-    border: 1px solid red;
 }
 .your-order-cont {
     width: 100%; 
@@ -11,7 +10,6 @@
     background-repeat: no-repeat;
     background-size: 100% contain;
     background-position: center top;
-    border: 1px solid green;
 }
 @media (min-resolution:192dpi) {
     .your-order-cont {
@@ -22,13 +20,16 @@
     }
 }
 .your-order-slogan {
-    padding-top: 630px;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: 44px;
     letter-spacing: -0.96px;
     color: #FCF9F9;
+}
+.your-order-div {
+    padding-top: 630px;
+
 }
 .yellow-slogan {
     color: #ECD979;
@@ -103,11 +104,14 @@
         }
     }
     .your-order-slogan {
-        padding-top: 868px;
         max-width: 542px;
         font-size: 44px;
         line-height: 58px;
         letter-spacing: -1.32px;
+    }
+    .your-order-div {
+        padding-top: 868px;
+
     }
     .form {
         width: 508px;
@@ -123,5 +127,41 @@
         width: 638px;
         height: 521px;
         margin: 100px 0 0 66px;
+    }
+}
+@media (min-width:1280px) {
+    
+    .your-order-cont {
+        padding-left: 64px;
+        padding-bottom: 0;
+        width: 100%;
+        max-width: 1280px;
+        margin: auto;
+        background-image: url(../img/second_girl_deck_1x-min.jpg), url(../img/ornament-your-order-desk-x1.png);
+        background-position: top center, left -256px bottom;
+        background-size: 1282px 776px, 545px 484px;
+        
+    }
+    @media (min-resolution:192px){
+        .your-order-cont {
+            background-image: url(../img/second_girl_tab_2x-min.jpg), url(../img/ornament-your-order-tab-x2.png);
+        }
+    }
+    .choice-pict {
+        width: 524px;
+        height: 521px;
+        margin: 0;
+    }
+    .choice-pict > img {
+        width: 100%;
+        height: 100%;
+    }
+    .your-order-div {
+        width: 100%;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: start;
+        gap: 50px;
+        margin-left: 0;
     }
 }
