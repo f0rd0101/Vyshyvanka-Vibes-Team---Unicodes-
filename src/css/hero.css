@@ -149,3 +149,52 @@ bottom: -97px;
 
 }
 
+@media screen and (min-width: 1280px) {
+
+.container {
+    max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.hero {
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+
+.hero-one {
+    padding-top: 80px;
+}
+
+.star {
+    margin-top: 14px;
+    right: 100px;
+}
+
+.hero-title-wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 40px;
+}
+
+.hero-title {
+    width: 518px;
+    padding-right: 24;
+    margin-bottom: 40px;
+}
+
+.hero-img {
+    margin-top: 0;
+}
+
+.hero-ukr-img {
+    width: 142.159px;
+    height: 156.719px;
+    right: 96px;
+    bottom: -79px;
+    padding-left: 24px;
+}
+
+}
+
