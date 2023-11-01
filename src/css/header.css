@@ -1,7 +1,7 @@
 .header {
   background-color: #1c2225;
   width: 375px;
-  height: 52px;
+
   display: flex;
 }
 .header-nav {
@@ -34,6 +34,9 @@
 .li-nav {
   display: flex;
   align-items: baseline;
+}
+.li-nav-one {
+  display: none;
 }
 .header-social-svg {
   width: 44px;
@@ -72,8 +75,9 @@
 }
 @media screen and (min-width: 1280px) {
   .container {
-    width: 1280px;
+    max-width: 1280px;
   }
+
   .header-nav {
     gap: 60px;
   }
