@@ -19,21 +19,21 @@
 
     }
 }
-.your-order-slogan {
+/* .your-order-slogan {
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: 44px;
     letter-spacing: -0.96px;
     color: #FCF9F9;
-}
+} */
 .your-order-div {
     padding-top: 630px;
 
 }
-.yellow-slogan {
+/* .yellow-slogan {
     color: #ECD979;
-}
+} */
 .form {
     margin: 40px 0 0 0;
     display: flex;
