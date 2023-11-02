@@ -1,0 +1,115 @@
+.footer {
+  min-width: 375px;
+  min-height: 649px;
+  background-image: url(../img/ornament_footer_mob-min.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100% 212px;
+}
+.footer-heading {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.22;
+  letter-spacing: -0.03em;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 40px;
+  padding-top: 40px;
+}
+
+.footer-list-item {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+}
+
+.footer-list-item:first-child {
+  margin-bottom: 25px;
+}
+
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  color: var(--yellow, #ecd979);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+  .footer {
+    min-height: 370px;
+    background-image: url(../img/ornament_footer_tab-min.png);
+    background-position: right;
+    background-size: contain;
+  }
+  .footer-list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .footer-nav {
+    gap: 20px;
+    margin-bottom: 80px;
+  }
+
+  .footer-heading {
+    width: 521px;
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 1.19;
+    letter-spacing: -0.03em;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
+  .footer {
+    min-height: 363px;
+    background-image: url(../img/ornament_footer_deck-min.png);
+    background-position: right;
+    background-size: contain;
+  }
+  .footer-list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .footer-nav {
+    gap: 20px;
+    margin-bottom: 117px;
+  }
+
+  .footer-heading {
+    width: 754px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+  }
+}
+
+/* @media screen and (min-width: 1440px) {
+  .footer {
+    min-height: 363px;
+    background-image: url(../img/ornament_footer_deck-min.png);
+    background-position: right;
+    background-size: contain;
+  }
+  .footer-list {
+    display: flex;
+    gap: 20px;
+  }
+
+  .footer-nav {
+    gap: 20px;
+    margin-bottom: 117px;
+  }
+
+  .footer-heading {
+    width: 754px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 1.16;
+    letter-spacing: -0.03em;
+  }
+} */
