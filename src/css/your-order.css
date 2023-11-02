@@ -1,167 +1,158 @@
 .your-order {
-    padding-top: 80px;
+  padding-top: 80px;
 }
 .your-order-cont {
-    width: 100%; 
-    max-width: 375px; 
-    padding-right: 20px; 
-    padding-left: 20px;
-    background-image: url(../img/second_girl_mob_1x-min.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% contain;
-    background-position: center top;
+  width: 100%;
+  max-width: 375px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-image: url(../img/second_girl_mob_1x-min.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% contain;
+  background-position: center top;
 }
-@media (min-resolution:192dpi) {
-    .your-order-cont {
-        background-image: url(../img/second_girl_mob_2x-min.jpg);
-        background-size: contain;
-        max-width: 375px;
+@media (min-resolution: 192dpi) {
+  .your-order-cont {
+    background-image: url(../img/second_girl_mob_2x-min.jpg);
+    background-size: contain;
+    max-width: 375px;
+  }
+}
 
-    }
-}
-/* .your-order-slogan {
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 44px;
-    letter-spacing: -0.96px;
-    color: #FCF9F9;
-} */
 .your-order-div {
-    padding-top: 630px;
-
+  padding-top: 630px;
 }
-/* .yellow-slogan {
-    color: #ECD979;
-} */
+
 .form {
-    margin: 40px 0 0 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-    align-self: stretch;
+  margin: 40px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
 }
 .input {
-    width: 335px;
-    padding: 14px 16px;
-    align-items: flex-start;
-    border-radius: 15px;
-    border: 1px solid rgba(252, 249, 249, 0.10);
-    background-color: transparent;
-    color: #FCF9F9;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.32px;
+  width: 335px;
+  padding: 14px 16px;
+  align-items: flex-start;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  color: #fcf9f9;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.32px;
 }
-.input:active, .input:focus {
-    border: 1px solid rgba(252, 249, 249, 0.60);
+.input:active,
+.input:focus {
+  border: 1px solid rgba(252, 249, 249, 0.6);
 }
 .comments {
-    height: 196px;
+  height: 196px;
 }
 .button {
-    display: flex;
-    height: 49px;
-    padding: 14px 36px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 15px;
-    border: 1px solid rgba(252, 249, 249, 0.10);
-    background-color: transparent;
-    color: #FCF9F9;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    letter-spacing: -0.56px;
-    text-transform: uppercase;
-    margin: 20px auto;
+  display: flex;
+  height: 49px;
+  padding: 14px 36px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  background-color: transparent;
+  color: #fcf9f9;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+  margin: 20px auto;
 }
-.button-icon{
-    width: 26px;
-    height: 10px;
+.button-icon {
+  width: 26px;
+  height: 10px;
 }
 .choice-pict {
-    display: none;
+  display: none;
 }
 @media (min-width: 768px) {
+  .your-order-cont {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 79px;
+    max-width: 768px;
+    background-image: url(../img/second_girl_tab_1x-min.jpg),
+      url(../img/ornament-your-order-tab-x1.png);
+    background-position: top center, left -222px bottom;
+    background-size: 768px 776px, 545px 484px;
+  }
+  @media (min-resolution: 192px) {
     .your-order-cont {
-        padding-left: 32px;
-        padding-right: 32px;
-        padding-bottom: 79px;
-        max-width: 768px;
-        background-image: url(../img/second_girl_tab_1x-min.jpg), url(../img/ornament-your-order-tab-x1.png);
-        background-position: top center, left -222px bottom;
-        background-size: 768px 776px, 545px 484px;
+      background-image: url(../img/second_girl_tab_2x-min.jpg),
+        url(../img/ornament-your-order-tab-x2.png);
     }
-    @media (min-resolution:192px){
-        .your-order-cont {
-            background-image: url(../img/second_girl_tab_2x-min.jpg), url(../img/ornament-your-order-tab-x2.png);
-        }
-    }
-    .your-order-slogan {
-        max-width: 542px;
-        font-size: 44px;
-        line-height: 58px;
-        letter-spacing: -1.32px;
-    }
-    .your-order-div {
-        padding-top: 868px;
-
-    }
-    .form {
-        width: 508px;
-    }
-    .input {
-        width: 100%;
-    }
-    .button {
-        margin: 40px 0 0 0;
-    }
-    .choice-pict {
-        display: block;
-        width: 638px;
-        height: 521px;
-        margin: 100px 0 0 66px;
-    }
+  }
+  .your-order-slogan {
+    max-width: 542px;
+    font-size: 44px;
+    line-height: 58px;
+    letter-spacing: -1.32px;
+  }
+  .your-order-div {
+    padding-top: 868px;
+  }
+  .form {
+    width: 508px;
+  }
+  .input {
+    width: 100%;
+  }
+  .button {
+    margin: 40px 0 0 0;
+  }
+  .choice-pict {
+    display: block;
+    width: 638px;
+    height: 521px;
+    margin: 100px 0 0 66px;
+  }
 }
-@media (min-width:1280px) {
-    
+@media (min-width: 1280px) {
+  .your-order-cont {
+    padding-left: 64px;
+    padding-bottom: 0;
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    background-image: url(../img/second_girl_deck_1x-min.jpg),
+      url(../img/ornament-your-order-desk-x1.png);
+    background-position: top center, left -256px bottom;
+    background-size: 1282px 776px, 545px 484px;
+  }
+  @media (min-resolution: 192px) {
     .your-order-cont {
-        padding-left: 64px;
-        padding-bottom: 0;
-        width: 100%;
-        max-width: 1280px;
-        margin: auto;
-        background-image: url(../img/second_girl_deck_1x-min.jpg), url(../img/ornament-your-order-desk-x1.png);
-        background-position: top center, left -256px bottom;
-        background-size: 1282px 776px, 545px 484px;
-        
+      background-image: url(../img/second_girl_tab_2x-min.jpg),
+        url(../img/ornament-your-order-tab-x2.png);
     }
-    @media (min-resolution:192px){
-        .your-order-cont {
-            background-image: url(../img/second_girl_tab_2x-min.jpg), url(../img/ornament-your-order-tab-x2.png);
-        }
-    }
-    .choice-pict {
-        width: 524px;
-        height: 521px;
-        margin: 0;
-    }
-    .choice-pict > img {
-        width: 100%;
-        height: 100%;
-    }
-    .your-order-div {
-        width: 100%;
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: start;
-        gap: 50px;
-        margin-left: 0;
-    }
+  }
+  .choice-pict {
+    width: 524px;
+    height: 521px;
+    margin: 0;
+  }
+  .choice-pict > img {
+    width: 100%;
+    height: 100%;
+  }
+  .your-order-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 50px;
+    margin-left: 0;
+  }
 }
