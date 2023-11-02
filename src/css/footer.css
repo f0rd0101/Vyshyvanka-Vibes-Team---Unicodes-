@@ -13,6 +13,10 @@
   letter-spacing: -0.03em;
 }
 
+.footer-heading-span {
+  color: var(--white, #ecd979);
+}
+
 .footer-nav {
   display: flex;
   gap: 40px;
@@ -29,6 +33,10 @@
 
 .footer-list-item:first-child {
   margin-bottom: 25px;
+}
+
+.footer-nav-link {
+  transition: color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-nav-link:hover,
@@ -62,7 +70,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) and (max-width: 1440px) {
+@media screen and (min-width: 1280px) {
   .footer {
     min-height: 363px;
     background-image: url(../img/ornament_footer_deck-min.png);
