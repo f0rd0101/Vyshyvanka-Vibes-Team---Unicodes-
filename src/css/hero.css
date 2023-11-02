@@ -54,18 +54,31 @@
   transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-buy-btn:hover {
-  border: 1px solid var(--yellow, #ecd979);
+.hero-buy-btn .hero-btn-icon {
+  width: 30px;
+  height: 15px;
+  transition: transform 0.3s ease-in-out;
+  color: var(--yellow, #ECD979);
 }
+
+
+.hero-buy-btn:hover,
 .hero-buy-btn:focus {
-  border: 1px solid var(--yellow, #ecd979);
+  border: 1px solid var(--yellow, #ECD979);
+  transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn-icon {
   width: 30px;
   height: 15px;
-  /* transform: rotate(-30deg); */
-  color: var(--yellow, #ecd979);
+  transition: transform 0.3s ease-in-out;
+  color: var(--yellow, #ECD979);
+}
+
+.hero-buy-btn:hover .hero-btn-icon,
+.hero-buy-btn:focus .hero-btn-icon {
+  transform: rotate(120deg);
+  outline: none;
 }
 
 .hero-img {
@@ -127,6 +140,41 @@
   .star-icon {
     color: #ecd979;
   }
+
+.star-icon {
+  animation: scaleStar 2s ease infinite alternate;
+}
+
+@keyframes scaleStar {
+  0% {
+    transform: scale(2);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(2);
+  }
+}
+
+.star-text:focus {
+  animation: moveUpAndFadeOut 5s linear infinite;
+  color: rgba(244, 246, 246, 0.964);
+}
+
+@keyframes moveUpAndFadeOut {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+}
 
   .star-text {
     color: rgba(252, 249, 249, 0.4);

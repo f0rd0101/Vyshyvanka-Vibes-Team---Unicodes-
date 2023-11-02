@@ -80,6 +80,7 @@ body {
   display: inline-flex;
   gap: 40px;
 }
+
 .testimonials-item {
   display: flex;
   padding: 0px 18px 18px 18px;
