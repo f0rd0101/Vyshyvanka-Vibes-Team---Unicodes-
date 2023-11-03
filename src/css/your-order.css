@@ -19,19 +19,19 @@
   }
 }
 .your-order-slogan {
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 44px;
-    letter-spacing: -0.96px;
-    color: #FCF9F9;
-} 
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -0.96px;
+  color: #fcf9f9;
+}
 .your-order-div {
   padding-top: 630px;
-} 
+}
 .yellow-slogan {
-    color: #ECD979;
-} 
+  color: #ecd979;
+}
 .form {
   margin: 40px 0 0 0;
   display: flex;
@@ -78,7 +78,8 @@
   line-height: normal;
   letter-spacing: -0.56px;
   text-transform: uppercase;
-  margin: 20px auto;
+  margin: 0 auto;
+  margin-top: 40px;
 }
 .button-icon {
   width: 26px;
@@ -110,9 +111,9 @@
     line-height: 58px;
     letter-spacing: -1.32px;
   }
-    .your-order-div {
+  .your-order-div {
     padding-top: 868px;
-  } 
+  }
   .form {
     width: 508px;
   }
