@@ -202,11 +202,12 @@ body {
 }
 @media screen and (min-width: 768px) {
   .testimonials {
-    padding: 100px 32px;
+    padding: 100px 0;
   }
 
   .testimonials-title {
     font-size: 32px;
+    padding-left: 12px;
   }
 
   .testimonials-list {
@@ -257,6 +258,7 @@ body {
   .testimonials-title {
     font-size: 44px;
     font-family: Manrope;
+    padding-left: 72px;
   }
 
   .testimonials-list {

@@ -88,6 +88,9 @@
   .container {
     max-width: 768px;
   }
+  .about {
+    padding-bottom: 50px;
+  }
 
   .about-container {
     background-image: url(../img/ornament_about_us_tab-min.png);
@@ -106,9 +109,8 @@
     font-size: 16px;
     letter-spacing: -0.04em;
   }
-
-  .about-img {
-    margin-top: 40px;
+  .about-text:last-child {
+    margin-bottom: 40px;
   }
 }
 
@@ -127,9 +129,14 @@
     background-position: right bottom;
     padding-bottom: 50px;
   }
-
+  .about {
+    padding-bottom: 70px;
+  }
   .about-text-wrap {
     max-width: 436px;
+  }
+  .about-text:last-child {
+    margin: 0;
   }
 }
 
