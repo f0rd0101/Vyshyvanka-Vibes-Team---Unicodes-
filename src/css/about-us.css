@@ -6,7 +6,9 @@
 }
 
 /* ----------------------------------------------- */
-
+.about {
+  padding-bottom: 18px;
+}
 .about-container {
   background-image: url(../img/ornament_about_us_mob-min.png);
   fill: #fcf9f91a;

@@ -8,15 +8,23 @@
 }
 .nav-one {
   display: none;
+  pointer-events: none;
+  opacity: 0;
 }
-
+.svg-icon {
+  width: 44px;
+  height: 39px;
+}
 .teleph {
   display: none;
+  pointer-events: none;
+  opacity: 0;
 }
 .header-container {
   height: 56px;
   display: flex;
   align-items: center;
+  max-width: 375px;
 }
 .social-div {
   display: flex;
@@ -28,8 +36,9 @@
 
 .li-nav {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
+
 .li-nav-one {
   display: none;
 }
@@ -57,8 +66,10 @@
 .button-menu {
   background-color: transparent;
   border: none;
-}
-.button-div {
+  display: flex;
+  width: 36px;
+  height: 24px;
+  padding: 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -66,8 +77,7 @@
     max-width: 768px;
     margin: 0 auto;
   }
-
-  .header-container {
+  .header-nav {
     gap: 440px;
   }
 }
