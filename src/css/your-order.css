@@ -6,32 +6,32 @@
   max-width: 375px;
   padding-right: 20px;
   padding-left: 20px;
-  background-image: url(./img/second_girl_mob_1x-min.jpg);
+  background-image: url(../img/second_girl_mob_1x-min.jpg);
   background-repeat: no-repeat;
   background-size: 100% contain;
   background-position: center top;
 }
 @media (min-resolution: 192dpi) {
   .your-order-cont {
-    background-image: url(./img/second_girl_mob_2x-min.jpg);
+    background-image: url(../img/second_girl_mob_2x-min.jpg);
     background-size: contain;
     max-width: 375px;
   }
 }
-/* .your-order-slogan {
+.your-order-slogan {
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: 44px;
     letter-spacing: -0.96px;
     color: #FCF9F9;
-} */
-/* .your-order-div {
+} 
+.your-order-div {
   padding-top: 630px;
-} */
-/* .yellow-slogan {
+} 
+.yellow-slogan {
     color: #ECD979;
-} */
+} 
 .form {
   margin: 40px 0 0 0;
   display: flex;
@@ -93,15 +93,15 @@
     padding-right: 32px;
     padding-bottom: 79px;
     max-width: 768px;
-    background-image: url(./img/second_girl_tab_1x-min.jpg),
-      url(./img/ornament-your-order-tab-x1.png);
+    background-image: url(../img/second_girl_tab_1x-min.jpg),
+      url(../img/ornament-your-order-tab-x1.png);
     background-position: top center, left -222px bottom;
     background-size: 768px 776px, 545px 484px;
   }
   @media (min-resolution: 192px) {
     .your-order-cont {
-      background-image: url(./img/second_girl_tab_2x-min.jpg),
-        url(./img/ornament-your-order-tab-x2.png);
+      background-image: url(../img/second_girl_tab_2x-min.jpg),
+        url(../img/ornament-your-order-tab-x2.png);
     }
   }
   .your-order-slogan {
@@ -110,9 +110,9 @@
     line-height: 58px;
     letter-spacing: -1.32px;
   }
-  /*   .your-order-div {
+    .your-order-div {
     padding-top: 868px;
-  } */
+  } 
   .form {
     width: 508px;
   }
@@ -136,15 +136,15 @@
     width: 100%;
     max-width: 1280px;
     margin: auto;
-    background-image: url(./img/second_girl_deck_1x-min.jpg),
-      url(./img/ornament-your-order-desk-x1.png);
+    background-image: url(../img/second_girl_deck_1x-min.jpg),
+      url(../img/ornament-your-order-desk-x1.png);
     background-position: top center, left -256px bottom;
     background-size: 1282px 776px, 545px 484px;
   }
   @media (min-resolution: 192px) {
     .your-order-cont {
-      background-image: url(./img/second_girl_tab_2x-min.jpg),
-        url(./img/ornament-your-order-tab-x2.png);
+      background-image: url(../img/second_girl_tab_2x-min.jpg),
+        url(../img/ornament-your-order-tab-x2.png);
     }
   }
   .choice-pict {
