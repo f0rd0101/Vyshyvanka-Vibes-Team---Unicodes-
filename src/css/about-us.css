@@ -30,13 +30,15 @@
   line-height: normal;
   letter-spacing: -0.04em;
 }
+.about-text:last-child {
+  margin-bottom: 50px;
+}
 
 .about-text:not(:last-child) {
   margin-bottom: 20px;
 }
 
 .about-img {
-  margin-top: 50px;
   width: 100%;
 }
 
