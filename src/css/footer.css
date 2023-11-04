@@ -4,7 +4,7 @@
   background-image: url(../img/ornament_footer_mob-min.png);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 100% 212px;
+  /* background-size: 100% 212px; */
   border-top: 1px solid rgba(252, 249, 249, 0.1);
 }
 .footer-heading {
@@ -12,10 +12,6 @@
   font-weight: 400;
   line-height: 1.22;
   letter-spacing: -0.03em;
-}
-
-.footer-heading-span {
-  color: var(--white, #ecd979);
 }
 
 .footer-nav {
