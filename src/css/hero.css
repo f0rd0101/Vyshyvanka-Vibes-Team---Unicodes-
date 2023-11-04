@@ -83,8 +83,8 @@
 .hero-img {
   border-radius: 4px;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
-  margin-top: 40px;
-  width: 100%;
+
+  width: 335px;
 }
 
 .star {
