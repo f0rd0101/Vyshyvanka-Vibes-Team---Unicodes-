@@ -57,15 +57,35 @@
 }
 
 /* @media screen and (min-width: 320px) { 
-    .container { 
-      max-width: 375px; 
-    } 
+  .container { 
+    max-width: 375px; 
+  } 
 } */
 
 .our_container {
   background-image: url(../img/ornament_collect_mob-min.png);
   background-repeat: no-repeat;
   background-position: 0% 10%;
+}
+
+.coll_item {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.coll_item:hover {
+  transform: scale(1.06);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.coll_item {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.our_coll_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
@@ -132,28 +152,28 @@
 }
 
 /* @media screen and (min-width: 1440px) {
-    .container {
-      max-width: 1440px;
-    }
-    .container_coll{
-        padding-bottom: 150px;
-        padding-left: 100px;
-        padding-right: 100px;
-    } 
-    .coll_list{
-        display: flex;
-        flex-direction: row;
-        gap: 40px 20px; 
-    }
-    .our_coll_box_img, .our_coll_img{
-        max-width: 400px;
-    }
-    .coll_item{
-        width:400px;
-    }
-    .our_container{ 
-        background-image: url(../img/ornament_collect_deck-min.png); 
-        background-repeat: no-repeat; 
-        background-position: 0% 40%; 
-    }
+  .container {
+    max-width: 1440px;
+  }
+  .container_coll{
+      padding-bottom: 150px;
+      padding-left: 100px;
+      padding-right: 100px;
+  } 
+  .coll_list{
+      display: flex;
+      flex-direction: row;
+      gap: 40px 20px; 
+  }
+  .our_coll_box_img, .our_coll_img{
+      max-width: 400px;
+  }
+  .coll_item{
+      width:400px;
+  }
+  .our_container{ 
+      background-image: url(../img/ornament_collect_deck-min.png); 
+      background-repeat: no-repeat; 
+      background-position: 0% 40%; 
+  }
 } */
