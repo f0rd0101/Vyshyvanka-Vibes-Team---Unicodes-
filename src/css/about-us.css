@@ -6,7 +6,9 @@
 }
 
 /* ----------------------------------------------- */
-
+.about {
+  padding-bottom: 18px;
+}
 .about-container {
   background-image: url(../img/ornament_about_us_mob-min.png);
   fill: #fcf9f91a;
@@ -30,13 +32,15 @@
   line-height: normal;
   letter-spacing: -0.04em;
 }
+.about-text:last-child {
+  margin-bottom: 50px;
+}
 
 .about-text:not(:last-child) {
   margin-bottom: 20px;
 }
 
 .about-img {
-  margin-top: 50px;
   width: 100%;
 }
 
@@ -83,8 +87,9 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    padding-right: 32px;
-    padding-left: 32px;
+  }
+  .about {
+    padding-bottom: 50px;
   }
 
   .about-container {
@@ -104,17 +109,14 @@
     font-size: 16px;
     letter-spacing: -0.04em;
   }
-
-  .about-img {
-    margin-top: 40px;
+  .about-text:last-child {
+    margin-bottom: 40px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding-right: 100px;
-    padding-left: 100px;
   }
 
   .about-container {
@@ -127,9 +129,14 @@
     background-position: right bottom;
     padding-bottom: 50px;
   }
-
+  .about {
+    padding-bottom: 70px;
+  }
   .about-text-wrap {
     max-width: 436px;
+  }
+  .about-text:last-child {
+    margin: 0;
   }
 }
 
