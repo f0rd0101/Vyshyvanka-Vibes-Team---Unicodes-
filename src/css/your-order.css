@@ -38,7 +38,8 @@
   align-self: stretch;
 }
 .input {
-  width: 335px;
+  /* width: 335px; */
+  min-width: 100%;
   padding: 14px 16px;
   align-items: flex-start;
   border-radius: 15px;
@@ -50,6 +51,7 @@
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.32px;
+  resize: none;
 }
 .input:active,
 .input:focus {
@@ -161,5 +163,10 @@
     justify-content: start;
     gap: 50px;
     margin-left: 0;
+  }
+}
+@media (max-width: 374px) {
+  .your-order-slogan {
+    font-size: 30px;
   }
 }

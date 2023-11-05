@@ -87,6 +87,8 @@
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
   .about {
     padding-bottom: 50px;
@@ -98,6 +100,8 @@
     background-repeat: no-repeat;
     background-position: right bottom;
     padding-bottom: 50px;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .about-title {
@@ -117,6 +121,8 @@
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 
   .about-container {
@@ -128,6 +134,8 @@
     background-repeat: no-repeat;
     background-position: right bottom;
     padding-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
   .about {
     padding-bottom: 70px;
