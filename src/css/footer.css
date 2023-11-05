@@ -67,7 +67,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) and (max-width: 1440px) {
   .footer {
     min-height: 363px;
     background-image: url(../img/ornament_footer_deck-min.png);
@@ -93,10 +93,10 @@
   }
 }
 
-/* @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .footer {
     min-height: 363px;
-    background-image: url(../img/ornament_footer_deck-min.png);
+    background-image: url(../img/ornament-footer-desk-1440.png);
     background-position: right;
     background-size: contain;
   }
@@ -117,4 +117,4 @@
     line-height: 1.16;
     letter-spacing: -0.03em;
   }
-} */
+}
