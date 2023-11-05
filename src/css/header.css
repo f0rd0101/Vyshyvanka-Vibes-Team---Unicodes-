@@ -144,10 +144,11 @@
 }
 
 .menu-background {
+  width: 274px;
   z-index: 2;
   position: fixed;
   top: 0;
-  width: 100%;
+  right: 0;
   height: 100%;
   background-color: #ecd979;
   opacity: 0;
@@ -163,6 +164,7 @@
 }
 .menu {
   height: 100%;
+
   padding: 20px;
   position: relative;
   color: #1c2225;
@@ -231,7 +233,10 @@
   stroke: #1c2225;
 }
 
-@media screen and (min-width: 380px) {
+@media screen and (min-width: 768px) {
+  .menu-background {
+    width: 380px;
+  }
   .menu-icon-x {
     display: none;
   }
