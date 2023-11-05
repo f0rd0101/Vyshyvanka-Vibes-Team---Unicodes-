@@ -26,6 +26,7 @@
   display: flex;
   align-items: center;
   max-width: 375px;
+  justify-content: center;
 }
 .social-div {
   display: flex;
@@ -81,7 +82,11 @@
   .header-nav {
     gap: 440px;
   }
+  .header-container {
+    justify-content: flex-start;
+  }
 }
+
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
@@ -274,5 +279,10 @@
     background-repeat: no-repeat;
     background-size: 100% 364px;
     background-position: bottom;
+  }
+}
+@media screen and (max-width: 374px) {
+  .header-nav {
+    gap: 32px;
   }
 }

@@ -1,5 +1,5 @@
 .footer {
-  min-width: 375px;
+  /* min-width: 375px; */
   min-height: 649px;
   background-image: url(../img/ornament_footer_mob-min.png);
   background-repeat: no-repeat;
@@ -116,5 +116,14 @@
     font-weight: 400;
     line-height: 1.16;
     letter-spacing: -0.03em;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .footer-heading {
+    font-size: 38px;
+  }
+  .footer {
+    min-height: 579px;
   }
 }
