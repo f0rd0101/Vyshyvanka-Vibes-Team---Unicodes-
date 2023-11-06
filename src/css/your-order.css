@@ -78,7 +78,7 @@
   letter-spacing: -0.56px;
   text-transform: uppercase;
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .button-icon {
   width: 26px;
@@ -120,7 +120,7 @@
     width: 100%;
   }
   .button {
-    margin: 40px 0 0 0;
+    margin: 20px 0 0 0;
   }
   .choice-pict {
     display: block;
@@ -169,4 +169,13 @@
   .your-order-slogan {
     font-size: 30px;
   }
+}
+.input:focus{
+  border-color:#ECD979;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.button:focus,
+.button:hover{
+  border-color:#ECD979;
+
 }

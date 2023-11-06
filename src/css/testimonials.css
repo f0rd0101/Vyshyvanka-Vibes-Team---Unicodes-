@@ -207,7 +207,7 @@ body {
 
   .testimonials-title {
     font-size: 32px;
-    padding-left: 12px;
+    padding-left: 0;
   }
 
   .testimonials-list {

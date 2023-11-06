@@ -90,6 +90,7 @@
 
 @media screen and (min-width: 768px) {
   .container_coll {
+    padding-top: 50px;
     padding-bottom: 100px;
     padding-left: 32px;
     padding-right: 32px;
@@ -128,6 +129,7 @@
 
 @media screen and (min-width: 1280px) {
   .container_coll {
+    padding-top: 70px;
     padding-bottom: 150px;
     padding-left: 100px;
     padding-right: 100px;

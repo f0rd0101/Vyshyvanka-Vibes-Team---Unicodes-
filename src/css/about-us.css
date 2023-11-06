@@ -33,7 +33,7 @@
   letter-spacing: -0.04em;
 }
 .about-text:last-child {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .about-text:not(:last-child) {
@@ -90,8 +90,11 @@
     padding-left: 32px;
     padding-right: 32px;
   }
+  .about-container{
+    padding-bottom: 0px;
+  }
   .about {
-    padding-bottom: 50px;
+    padding-bottom: 0;
   }
 
   .about-container {
@@ -137,11 +140,12 @@
     padding-left: 100px;
     padding-right: 100px;
   }
-  .about {
+  /* .about {
     padding-bottom: 70px;
-  }
+  } */
   .about-text-wrap {
     max-width: 436px;
+    margin-bottom: 45px;
   }
   .about-text:last-child {
     margin: 0;
@@ -164,3 +168,6 @@
     padding-bottom: 80px;
   }
 } */
+.about-text-wrap {
+  margin-bottom: 50px;
+}
