@@ -1,6 +1,10 @@
 .footer {
+
   padding-top: 40px;
   min-width: 375px;
+
+  /* min-width: 375px; */
+
   min-height: 649px;
   background-image: url(../img/ornament_footer_mob-min.png);
   background-repeat: no-repeat;
@@ -171,5 +175,14 @@
   .footer-list-item-3,
   .footer-list-item-4 {
     min-width: 67px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .footer-heading {
+    font-size: 38px;
+  }
+  .footer {
+    min-height: 579px;
   }
 }

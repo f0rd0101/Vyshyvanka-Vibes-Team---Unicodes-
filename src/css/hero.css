@@ -21,7 +21,7 @@
 
 .hero-title {
   color: #fcf9f9;
-  width: 335px;
+  /* width: 335px; */
   font-size: 44px;
   font-weight: 400;
   line-height: 1.22;
@@ -84,7 +84,7 @@
   border-radius: 4px;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 
-  width: 335px;
+  width: 100%;
 }
 
 .star {
@@ -112,6 +112,8 @@
   .hero-container {
     position: relative;
     align-items: start;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 
   .hero-title {
@@ -244,5 +246,18 @@
     right: 96px;
     bottom: -79px;
     padding-left: 24px;
+  }
+}
+@media screen and (max-width: 374px) {
+  .hero-title {
+    font-size: 38px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-container {
+    position: relative;
+    align-items: start;
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
