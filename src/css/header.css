@@ -130,18 +130,11 @@
   }
   .li-nav:first-child {
     display: flex;
-    padding: 14px 28px;
+
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    border-radius: 15px;
-    border: 1px solid rgba(252, 249, 249, 0.1);
-    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .li-nav:first-child:hover,
-  .li-nav:first-child:focus {
-    border: 1px solid var(--yellow, #ecd979);
-  }
+
   .button-menu {
     display: none;
   }
@@ -159,6 +152,7 @@
     border: 1px solid var(--yellow, #ecd979);
   }
   .tel-text {
+    display: flex;
     color: #fcf9f9;
     font-family: Manrope;
     font-size: 14px;
@@ -166,6 +160,14 @@
     font-weight: 400;
     line-height: 1.42;
     text-transform: uppercase;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.1);
+    transition: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 14px 28px;
+  }
+  .tel-text:hover,
+  .tel-text:focus {
+    border: 1px solid var(--yellow, #ecd979);
   }
 }
 
